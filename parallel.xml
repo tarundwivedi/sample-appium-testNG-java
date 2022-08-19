@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Test Suite" parallel="classes" thread-count="2" preserve-order="true">
+	<test name="Demo Test">
+		<parameter name="platformVersion" value="11"></parameter>
+		<parameter name="deviceName" value="Android"></parameter>
+		<classes>
+			<class name="tests.SampleTest"></class>
+		</classes>
+	</test>
+	<test name="Demo Test2">
+		<parameter name="platformVersion" value="12"></parameter>
+		<parameter name="deviceName" value="Android"></parameter>
+		<classes>
+			<class name="tests.SampleTest"></class>
+		</classes>
+	</test>
+
+</suite>
