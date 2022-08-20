@@ -6,3 +6,4 @@ target/
 src/test/resources/native-ios/iPhone-7/actual/
 src/test/resources/native-ios/iPhone-7/result/
 src/test/resources/com.truecaller.apk
+.settings
